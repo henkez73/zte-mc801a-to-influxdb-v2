@@ -1,0 +1,4 @@
+[influx2]
+    url = "http://influxdb-v2-ip-address:portnumber"
+    token = "insert-influxdb-v2-token-here"
+    org = "insert-influxdb-v2-org-name"
