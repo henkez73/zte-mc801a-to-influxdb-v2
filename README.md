@@ -8,7 +8,8 @@ In the file `config.toml` configure the URL, token and organisation for the Infl
 
 ## Output
 
-In the file `zte2influxdbv2.py` uncumment the line `print (json.dumps(data))` and run `python zte2influxdbv2.py | jq`.
+In the file `zte2influxdbv2.py` uncumment the line `print (json.dumps(data))` and run `python zte2influxdbv2.py | jq` 
+if you want to see local output e.g. to check (it will still push to InfluxDB, too).
 
 Example output:
 
